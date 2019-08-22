@@ -1,5 +1,14 @@
 # Sample Flask Docker API
 
+## Getting started
+Clone the repo
+```
+git clone git@github.com:anothercuriousneuron/flask-docker.git
+```
+
+Add your code to `suggestions.py` (in the `app` folder), so that the method `generate_suggestions` returns appropriate suggestions.
+
+
 ## Steps to build docker image:
 ```bash
 docker build -t suggestor:v1 .
